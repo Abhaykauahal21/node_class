@@ -1,0 +1,14 @@
+{
+  "name": "node-class-notes",
+  "version": "1.0.0",
+  "description": "Structured notes and runnable examples for UNIX, Git, Bash and Node.js",
+  "main": "examples/app.js",
+  "scripts": {
+    "start": "node examples/app.js",
+    "examples": "node examples/fs-async.js && node examples/fs-sync.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0"
+  }
+}
